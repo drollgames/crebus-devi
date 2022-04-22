@@ -1,5 +1,7 @@
 # CrabOS 
 
+**Um sistema operacional de sites com codigo aberto com NodeJS**.
+
 ### Setup
 
 1) Abra o arquivo [conf.json](/assets/conf.json)
