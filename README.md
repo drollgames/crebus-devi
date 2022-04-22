@@ -10,9 +10,15 @@
 
 *modifique ao seu gosto*
 
-2) Instale o [Pm2](https://www.npmjs.com/package/pm2)
+2) Digite em seu terminal:
 
-3) Digite em seu terminal:
+```bash
+npm install --no-bin-links
+```
+
+3) Instale o [Pm2](https://www.npmjs.com/package/pm2)
+
+4) Digite em seu terminal:
 
 ```bash
 pm2 start index.js
@@ -28,13 +34,13 @@ pm2 stop index.js
 
 1) Instale o [ngrok](https://ngrok.com/download)
 
-```
+```bash
 sudo snap install ngrok
 ```
 
 2) Digite:
 
-```
+```bash
 ngrok http <porta-principal>
 ```
 
@@ -50,10 +56,10 @@ ngrok http <porta-principal>
 
 *se encontra nas configurações*
 
-`crabos.port` - porta do servidor web
+`crabos.port` - porta do servidor web.
 
-`crabo.proxyPort` - Porta do servidor de status (Recomendável manter em localhost)
+`crabo.proxyPort` - Porta do servidor de status. (Recomendável manter em localhost)
 
 `crabos.publicDir` - Nome da [pasta principal](/root/public) dos arquivos html.
 
-`crabos.error` - Define a Página 404 do site
+`crabos.error` - Define a Página 404 do site.
